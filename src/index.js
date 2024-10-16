@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import MyLib from './components/MyLib';
 import './index.css';
 
 ReactDOM.render(
-  <App />,
+  <MyLib />,
   document.getElementById('root')
 );
